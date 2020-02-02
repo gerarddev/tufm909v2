@@ -1,0 +1,84 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+bg-secondary {
+  background-image: url(logoviejo.png);
+}
+
+header img {
+  
+}
+
+/* FONTS */
+@font-face {
+  font-family: opinehe;
+  src: url(opinehe.ttf);
+
+}
+
+@font-face {
+  font-family: adventure;
+  src: url(adventure.otf)
+}
+
+/* ////////// */
+h1 {
+  font-family: adventure;
+  color: blue;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+  font-family: adventure;
+  color: blue;
+}
+
+.instagram, .facebook, .spotify, .twitter { 
+  transition: all .2s ease-in-out; 
+}
+
+.instagram:hover {
+  /* transform: scale(1.1); */
+  box-shadow: 1px 1px #6d6d6d, 2px 2px #6d6d6d, 3px 3px #6d6d6d;
+  transform: translateX(-3px);
+  cursor: pointer;
+}
+
+.img2 img {
+  border-radius: 20px;
+}
+
+/* back to top button css */
+
+#backtotop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: transparent;
+  z-index: 4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+ 
+}
+
+#backtotop:hover {
+  box-shadow: 2px 2px #6d6d6d, 1px 1px #6d6d6d, 3px 3px #6d6d6d;
+  transform: translateX(-3px);
+  cursor: pointer;
+}
